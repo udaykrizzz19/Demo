@@ -1,12 +1,4 @@
 
-var loader =document.getElementById("preloader");
-window.addEventListener("load",function()
-{
-  loader.style.display = "none";
-})
-
-
-
 /*=============== SEARCH BAR JS ===============*/
 const toggleSearch = (search, button) =>{
     const searchBar = document.getElementById(search),
